@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/INBOX"
+            android:title="InBox" />
+        <item
+            android:id="@+id/send_receive_sms"
+            android:title="Send_receive_sms" />
+        <item
+            android:id="@+id/Backup"
+            android:title="Backup" />
+        <item
+            android:id="@+id/group_msg"
+            android:title="Group_msg" />
+        <item
+            android:id="@+id/full_text_search"
+            android:title="Full Text Search" />
+    </group>
+    <!--android:icon="@drawable/ic_menu_manage" -->
+    <!--android:icon="@drawable/ic_menu_slideshow" -->
+    <!--android:icon="@drawable/ic_menu_gallery" -->
+    <!--android:icon="@drawable/ic_menu_camera" -->
+    <!--
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+    -->
+</menu>

@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.main.hatke.buyhatke_app.group_messages">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Group messages"
+            android:textAlignment="center"
+            android:id="@+id/tv3"
+            android:textSize="30dp" />
+        <ListView
+            android:id="@+id/inboxlistview_gm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv3">
+
+        </ListView>
+    </RelativeLayout>
+
+</FrameLayout>

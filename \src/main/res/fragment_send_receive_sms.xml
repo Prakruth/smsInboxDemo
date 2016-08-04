@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.main.hatke.buyhatke_app.send_receive_sms">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Receive SMS"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:id="@+id/tv_s_r"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/editText"
+        android:hint="Enter Message here"
+        android:layout_below="@+id/sender_number"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sender_number"
+        android:layout_below="@id/tv_s_r"
+        android:hint="Send To"
+        android:inputType="number"
+        />
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/button_s_r"
+         android:text="Send"
+         android:layout_below="@+id/editText"
+         android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

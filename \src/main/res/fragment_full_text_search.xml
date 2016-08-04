@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.main.hatke.buyhatke_app.full_text_search">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Full Text search"
+        android:textSize="40dp"
+        android:id="@+id/tv1"/>
+    <EditText
+        android:id="@+id/search_txt_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search"
+        android:layout_below="@+id/tv1"/>
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Search"
+         android:layout_below="@+id/search_txt_et"
+         android:id="@+id/btn_t_s"
+         android:layout_centerHorizontal="true" />
+     <ListView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/btn_t_s"
+         android:id="@+id/lv_t_s">
+     </ListView>
+    </RelativeLayout>
+
+</FrameLayout>
