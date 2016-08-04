@@ -1,6 +1,6 @@
 # smsInboxDemo
 Libraries used in this app
-android.app.FragmentManager
+android.app.FragmentManager \n
 android.os.Bundle
 android.support.design.widget.FloatingActionButton
 android.support.design.widget.Snackbar
